@@ -3,5 +3,5 @@ project(1722)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(48 src/48.cpp)
 
-add_executable(297_debug src/297_debug.cpp)
