@@ -12,6 +12,7 @@ public:
     }
     
 private:
+    // 二分查找左边界
     int findLeft(vector<int>& nums, int target) {
         int left = 0;
         int right = nums.size() - 1;
